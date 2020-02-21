@@ -6,6 +6,8 @@ import pandas as pd
 
 #alt enter after highlighting
 #ctrl+Q for quick documentation
+#github push is ctrl shift k
+
 
 
 
@@ -46,5 +48,5 @@ z1.iloc[[0,1],[1]]
 z1.iloc[1] #column 1, all rows
 z1.iloc[[1]] #row 1, all columns
 
-
+z1.iloc[[1],[1]].shape #gives row, col as (1, 1)
 
